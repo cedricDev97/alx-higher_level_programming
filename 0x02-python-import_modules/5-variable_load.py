@@ -2,7 +2,7 @@
 from variable_load_5 import
 
 
-def main()
+def main():
     print(a)
 
 
