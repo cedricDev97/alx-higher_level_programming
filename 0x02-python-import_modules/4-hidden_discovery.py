@@ -2,7 +2,6 @@
 import hidden_4
 
 
-
 def main():
     file = dir(hidden_4)
     length = len(file)
