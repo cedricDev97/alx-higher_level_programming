@@ -8,7 +8,7 @@ class Square:
     def __init__(self, size=0):
         """
             Args:
-            size (int): size initializer
+                size (int): size initializer
         """
 
         self.size = size
@@ -45,6 +45,7 @@ class Square:
                 raise ValueError("size must be >= 0")
 
             self.__size = value
+
     def my_print(self):
             """Draw the square to the stdout"""
             if self.__size == 0:
