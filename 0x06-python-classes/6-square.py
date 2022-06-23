@@ -10,9 +10,10 @@ class Square:
         Args:
             size (int): The size of the new square.
             position (int, int): The position of the new square.
-            """
-            self.size = size
-            self.position = position
+        """
+        self.size = size
+        self.position = position
+
     @property
     def size(self):
         """Get/set the current size of the square."""
@@ -30,6 +31,7 @@ class Square:
         def position(self):
             """Get/set the current position of the square."""
             return (self.__position)
+
     @position.setter
     def position(self, value):
         if (not isinstance(value, tuple) or

@@ -9,7 +9,7 @@ class Node:
         Args:
             data (int): The data of the new Node.
             next_node (Node): The next node of the new Node.
-            """
+        """
             self.data = data
             self.next_node = next_node
 
